@@ -1,0 +1,106 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - testcafe-browser-provider-electron > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: testcafe-browser-provider-electron > lodash
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-eslint > @babel/traverse > lodash
+    - fbjs-scripts > @babel/core > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: fbjs-scripts > @babel/core > lodash
+    - babel-plugin-transform-es2015-classes > babel-helper-define-map > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-plugin-transform-es2015-classes > babel-helper-define-map >
+          lodash
+    - testcafe > testcafe-browser-tools > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: testcafe > testcafe-browser-tools > lodash
+    - testcafe > testcafe-legacy-api > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: testcafe > testcafe-legacy-api > lodash
+    - browser-sync > easy-extender > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: browser-sync > easy-extender > lodash
+    - electron-cookies > tough-cookie-web-storage-store > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: electron-cookies > tough-cookie-web-storage-store > lodash
+    - enzyme > cheerio > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: enzyme > cheerio > lodash
+    - flow-typed > flowgen > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: flow-typed > flowgen > lodash
+    - optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: optimize-css-assets-webpack-plugin > last-call-webpack-plugin > lodash
+    - testcafe > graphlib > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: testcafe > graphlib > lodash
+    - testcafe-live > graphlib > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: testcafe-live > graphlib > lodash
+    - fbjs-scripts > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: fbjs-scripts > @babel/core > @babel/helper-module-transforms > lodash
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: babel-jest > @jest/transform > @babel/core > lodash
+    - electron > @electron/get > global-tunnel-ng > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: electron > @electron/get > global-tunnel-ng > lodash
+    - babel-jest > @jest/transform > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          babel-jest > @jest/transform > @babel/core >
+          @babel/helper-module-transforms > lodash
+    - fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-classes > @babel/helper-define-map > lodash:
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          fbjs-scripts > babel-preset-fbjs > @babel/plugin-transform-classes >
+          @babel/helper-define-map > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-unicode-property-regex > @babel/helper-create-regexp-features-plugin > @babel/helper-regex > lodash':
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-unicode-property-regex >
+          @babel/helper-create-regexp-features-plugin > @babel/helper-regex >
+          lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/traverse > lodash':
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/traverse > lodash
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash':
+        patched: '2025-01-06T18:52:32.703Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          @babel/preset-env > @babel/plugin-proposal-async-generator-functions >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
