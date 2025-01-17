@@ -1,0 +1,39 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:lodash:20180130':
+    - emitter > gulp-babel > babel-core > lodash:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:lodash:20180130'
+        path: emitter > gulp-babel > babel-core > lodash
+    - emitter > gulp-babel > babel-core > babel-plugin-proto-to-assign > lodash:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:lodash:20180130'
+        path: >-
+          emitter > gulp-babel > babel-core > babel-plugin-proto-to-assign >
+          lodash
+  'npm:minimatch:20160620':
+    - emitter > gulp-babel > babel-core > minimatch:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:minimatch:20160620'
+        path: emitter > gulp-babel > babel-core > minimatch
+    - emitter > gulp > vinyl-fs > glob-stream > minimatch:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:minimatch:20160620'
+        path: emitter > gulp > vinyl-fs > glob-stream > minimatch
+    - emitter > gulp > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:minimatch:20160620'
+        path: emitter > gulp > vinyl-fs > glob-stream > glob > minimatch
+    - emitter > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:minimatch:20160620'
+        path: emitter > gulp > vinyl-fs > glob-watcher > gaze > globule > minimatch
+    - emitter > gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2025-01-17T22:55:27.137Z'
+        id: 'npm:minimatch:20160620'
+        path: >-
+          emitter > gulp > vinyl-fs > glob-watcher > gaze > globule > glob >
+          minimatch
