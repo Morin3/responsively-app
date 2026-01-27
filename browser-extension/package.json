@@ -36,11 +36,11 @@
 		"stylelint": "^16.1.0",
 		"stylelint-config-xo": "^1.0.0",
 		"terser-webpack-plugin": "^5.3.11",
-		"web-ext": "^8.3.0",
+		"web-ext": "^9.2.0",
 		"web-ext-submit": "^7.7.0",
 		"webpack": "^5.94.0",
 		"webpack-cli": "^4.0.0",
-		"xo": "^0.43.0"
+		"xo": "^0.61.0"
 	},
 	"dependencies": {
 		"custom-protocol-check": "^1.1.0",
